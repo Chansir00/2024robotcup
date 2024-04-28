@@ -302,7 +302,7 @@ def update(x):
             result_list2.append(0)   #红色
         if len(result_list2)>max_list_num:
             result_list2.pop(0)
-            result = max(set(result_list2),key=result_list.count)
+            result = max(set(result_list2),key=result_list2.count)
             cone_mode = False
             return result
 
